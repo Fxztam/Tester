@@ -1,4 +1,4 @@
-
+```sql
 BEGIN
    EXECUTE IMMEDIATE '
             CREATE or REPLACE PROCEDURE drop_object (p_type VARCHAR2, p_name VARCHAR2) IS
@@ -22,3 +22,4 @@ BEGIN
    END LOOP;
 END drop_tables;
 /
+```
